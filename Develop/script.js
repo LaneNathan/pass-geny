@@ -4,7 +4,6 @@
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 var chars ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%*";
-var length =(i>0; i<==128; )
 // Write password to the #password input
 function writePassword() {
   var password = generatePassword();
@@ -13,7 +12,7 @@ function writePassword() {
   passwordText.value = password;
 
  function generatePassword(){
-  for(var i =0; i< length; i++){
+  for(var i =0; i< length; i++){ 
 
   }
 
