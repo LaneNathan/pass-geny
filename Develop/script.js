@@ -26,8 +26,8 @@ var chars='';
 var length= prompt('Please enter a character length from 1-128!');
 
 if(length>8&&length<128){
+var casing =confirm('Would you like upper case letters?');
 
-  
 }
 
 
