@@ -22,6 +22,7 @@ function writePassword() {
 
 function generatePassword(){
 var password = '';
+var chars='';
 
 
   for(var i =0; i<= length; i++){ 
