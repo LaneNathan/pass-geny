@@ -49,8 +49,13 @@ for(var i =0; i<= length; i++){
     password += chars.charAt(randomIndex);
   }
   return password;
-
  }
+ else alert('Please try again!');
+
+ return password;
+
+
+ 
 }
 
 
