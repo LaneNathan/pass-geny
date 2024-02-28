@@ -25,6 +25,10 @@ var password = '';
 var chars='';
 var length= prompt('Please enter a character length from 1-128!');
 
+if(length>8&&length<128){
+
+  
+}
 
 
   for(var i =0; i<= length; i++){ 
