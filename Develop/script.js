@@ -28,12 +28,20 @@ var length= prompt('Please enter a character length from 1-128!');
 if(length>8&&length<128){
 var casingUp =confirm('Would you like upper case letters?');
 var numbersConfirm = confirm('Would you like it to contain numbers?');
+var casingDown = confirm('Would you like it to contain lower case letters?');
+var specialLetters = confirm('Would you like it to special letters?');
 
 if(casingUp){
   chars+=upperChars;
 }
 if(numbersConfirm){
   chars+=numbers;
+}
+if(casingDown){
+  chars+=lowerChars;
+}
+if(specialLetters){
+  chars+=specialchars;
 }
 
 for(var i =0; i<= length; i++){ 
