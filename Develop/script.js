@@ -27,7 +27,14 @@ var length= prompt('Please enter a character length from 1-128!');
 
 if(length>8&&length<128){
 var casing =confirm('Would you like upper case letters?');
+var numbersConfirm = confirm('Would you like it to contain numbers?');
 
+if(casing){
+  chars+=upperChars;
+}
+if(numbersConfirm){
+  chars+=numbers;
+}
 }
 
 
