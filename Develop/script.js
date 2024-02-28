@@ -23,6 +23,8 @@ function writePassword() {
 function generatePassword(){
 var password = '';
 var chars='';
+var length= prompt('Please enter a character length from 1-128!');
+
 
 
   for(var i =0; i<= length; i++){ 
