@@ -3,7 +3,10 @@
 
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
-var chars ="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%*";
+var specialchars ="!@#$%*";
+var upperChars="ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+var lowerChars="abcdefghijklmnopqrstuvwxyz";
+var numbers="0123456789";
 
 
 // Write password to the #password input
