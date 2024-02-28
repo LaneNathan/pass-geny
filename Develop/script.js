@@ -35,16 +35,17 @@ if(casing){
 if(numbersConfirm){
   chars+=numbers;
 }
-}
-
-
-  for(var i =0; i<= length; i++){ 
+for(var i =0; i<= length; i++){ 
     var randomIndex = Math.floor(Math.random() * chars.length);
     password += chars.charAt(randomIndex);
   }
   return password;
 
  }
+}
+
+
+  
 
 
 // Add event listener to generate button
