@@ -17,7 +17,13 @@ function writePassword() {
 
   passwordText.value = password;
 
- function generatePassword(){
+ }
+
+
+function generatePassword(){
+var password = '';
+
+
   for(var i =0; i<= length; i++){ 
     var randomIndex = Math.floor(Math.random() * chars.length);
     password += chars.charAt(randomIndex);
@@ -25,8 +31,6 @@ function writePassword() {
   return password;
 
  }
-  }
-
 
 
 // Add event listener to generate button
