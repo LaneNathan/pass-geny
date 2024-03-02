@@ -4,4 +4,4 @@ Here is my project where I worked on creating a random password generator with g
 
 https://lanenathan.github.io/pass-geny/
 
-
+![alt text](<./assets/images/Screenshot 2024-02-28 173332.png>)
